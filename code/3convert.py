@@ -26,7 +26,7 @@ def convert(source_path: str, result_path: str, result_name: str) -> None:
 
     df["lufttemperatur"] = df["t2m"] - 273.15 # Kelvin to Celsius
 
-    df.drop(columns = ["t2m", "sst", "number", "expver", "u10", "v10", "valid_time"], errors = "ignore", inplace = True)
+    df.drop(columns = ["t2m", "number", "expver", "u10", "v10", "valid_time"], errors = "ignore", inplace = True)
     df.rename(columns = {"sp": "luftdruck",
                          "d2m": "luftfeuchtigkeit",
                          "sd": "schneetiefe",
