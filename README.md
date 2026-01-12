@@ -12,6 +12,7 @@ git clone https://github.com/sudo-teabugger/wetterfrosch.git
 cd Code/
 pip install -r requirements.txt
 ~~~
+Löschen sie `DELETE ME` jede Datei in den Unterordnern von `code`, diese dienen nur dazu, dass github diese Ordner nicht ignoriert.
 ## Dokumentation
 Alle Dateien mit einer Zahl als erstes Zeichen des Dateinamen dienen zur Datenvorbereitung. Sind die Daten vorbereitet, so kann mit `NN_training.py` ein neuronales Netzwerk trainiert werden. Die exportierten Parameter können daraufhin erst in `NN_test.py` importiert werden, um die angepassten Parameter mit einem Testdatensatz zu bewerten oder auch direkt durch die Ausführung von `NN_benutzer.py` ausprobiert werden.
 ### `1download.py`
