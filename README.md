@@ -1,6 +1,6 @@
 an GE (die Person wird wissen, wenn sie gemeint ist): Die aktuell noch Englischen Bezeichnungen für Variablen, Funtionen, ... werde ich, falls sie es für sinnvoll halten, noch ins Deutsche übersetzen :)
 
-# Küntsliche Intelligenz in der Meteorologie
+# Künstliche Intelligenz in der Meteorologie
 ## Installation
 ### Python virtuelle Umgebung erstellen (optional)
 ~~~
